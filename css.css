@@ -1,0 +1,309 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+* {box-sizing: border-box;}
+body {
+    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    line-height: 1.6;
+    color:#333;
+}	
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  width: 465px;
+  margin: 0 auto;
+    
+}
+.d1 {background: #fff;}
+.d1 input {
+  width: 100%;
+  height: 28px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  
+  outline: none;
+  background: #fff;
+  color: #ccc;
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 75px;
+  height: 28px;
+  border: none;
+  background: #ccc;
+  
+  cursor: pointer;
+}
+.d1 button:before {
+  content: "SEARCH";
+  font-family: FontAwesome;
+  font-size: 12px;
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.header {
+    
+    width: 100%;
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+   
+}
+
+.head {
+   width: 1170px;
+    height: 130px;
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+     
+   
+}
+
+.header_inner{
+    background-color: #e8453c;
+    
+}
+
+
+.cont{
+    
+    background-color:#F5F5F5;
+     
+     
+}
+
+
+
+.slider{
+    width: 1200px;
+}
+.inner {
+     width: 1200px;
+    height: 35px;
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+     
+   
+     margin-left: auto;
+    margin-right: auto;
+    
+   
+  
+   
+}
+
+.let{
+    padding-top: 10px;
+}
+
+
+.social a {
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    float: left;
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 10px 10px 0;
+    padding: 0px;
+    color: #fff;
+}
+
+.pmenu{
+    width: 1200px;
+    height: 40px;
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+     margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu{
+    background-color:#E6E6FA; 
+   
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-decoration: none;
+    padding: 12px;
+    color: #e8453c;
+    margin: 0;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.nav_link:hover{
+   background:#e8453c; 
+    color:#fff;
+    height: 44px;
+}
+
+
+.nav_link.active{
+    background:#e14d41; 
+    color:#fff;
+    height: 44px;
+}
+
+.slider {
+    
+    margin: 10px 0;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    padding-top: 100px;
+   display: flex;
+    flex-direction: column;
+     
+    width: 100%;
+    height: 100vh;
+   
+
+}
+.colortext {
+     color: red; 
+   }
+
+.intro_inner{
+    padding-top:305px; 
+   
+   z-index: 1;
+}
+
+.in{
+    background: #F8F8FF;
+    height: 100vh;
+}
+.in_inner{
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+.example-shadow-1  {
+ 
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+ul {
+  display: block;
+    padding-bottom: 20px;
+}
+ul li {
+    float: left;
+    width: 50%;
+}
+
+li span {
+    color: #e8453c; 
+   }
+
+
+.mp{
+    background-color: #ff857a;
+   margin: 12px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.lp{
+    padding: 10px;
+}
+
+.left{
+    
+    width: 1100px;
+    height: 560px;
+    
+}
+.mplpleft{
+    position: relative;
+    color: #fff;
+    background:#e8453c;
+    border: 10px solid #fff;
+    margin-bottom: 5px;
+    
+}
+
+
+
+.im{
+  
+    border: 8px solid #fff;
+}
+
+.lefticon{
+    text-align: center;
+   margin: 12px;
+   margin: 12px;
+}
+
+
+.lefticon2{
+    padding-left: 15px;
+   margin: 12px;
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+   
+   
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
+.footer1{
+    font-size: 12px;
+width: 100%;
+   background:#df544d;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer2{
+    width: 100%;
+    background:#a3342d;
+     text-align: center;
+      padding: 5px;
+    font-size: 10px;
+}
+.hrcolor {
+    border: none; 
+    color: #f04941; 
+    background-color: #f04941;
+   }
+
+.github a:hover { background-color: black; color: #fff;}
+
